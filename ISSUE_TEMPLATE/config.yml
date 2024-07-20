@@ -1,1 +1,33 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+issue_templates:
+  - name: "🐞 Bug Report"
+    description: "Report an issue to help the project improve."
+    labels: "Type: Bug"
+    title: "[Bug] "
+    about: "Use this template to report a bug."
+    body: 1-bug-report.md
+  - name: "📚 Documentation or README.md issue report"
+    description: "Report an issue in the project's documentation or README.md file."
+    labels: Documentation
+    about: "Use this template to report a documentation issue."
+    body: 2-documentation-problem.md
+  - name: "🚀🆕 Feature Request"
+    description: "Suggest an idea or possible new feature for this project."
+    labels: "Type: Feature"
+    about: "Use this template to request a new feature."
+    body: 3-feature-request.md
+  - name: "🚀➕ Enhancement Request"
+    description: "Suggest an enhancement for this project. Improve an existing feature."
+    labels: "Type: Enhancement"
+    about: "Use this template to request an enhancement."
+    body: 4-enhancement-request.md
+  - name: "⚠️ Security Report"
+    description: "Report an issue to help the project improve."
+    labels: "Type: Security"
+    about: "Use this template to report a security issue."
+    body: 5-security-report.md
+  - name: "👾 Other"
+    description: "If your issue does not fit in any of the previous categories."
+    labels: ""
+    about: "Use this template for other types of issues."
+    body: 7-other.md
